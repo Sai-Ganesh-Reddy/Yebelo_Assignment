@@ -17,12 +17,12 @@ The final output is a modular Node.js-based microservice setup using **Docker**,
 
 ## 🏗️ Folder Structure
 
-yebelo-assignment/
+yebelo/
 │
-├── phase1/
+├── phase1-infra/
 │ └── server.js
 │
-├── phase2/
+├── phase2-app/
 │ ├── kafka/
 │ │ ├── producer.js
 │ │ └── consumer.js
@@ -32,7 +32,7 @@ yebelo-assignment/
 │ │ └── DataModel.js
 │ └── server.js
 │
-├── phase3/
+├── phase3-processor/
 │ ├── processor.js
 │ ├── package.json
 │ └── Dockerfile
@@ -45,8 +45,8 @@ yebelo-assignment/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <>
-cd yebelo-assignment
+git clone <https://github.com/Sai-Ganesh-Reddy/Yebelo_Assignment.git>
+cd yebelo
 2️⃣ Create Docker Containers
 
 docker-compose up --build
@@ -127,7 +127,3 @@ Clean separation of producer, consumer, and API logic.
 
 📜 License
 This project is created for educational and evaluation purposes under the Yebelo Technical Assignment guidelines.
-
-👩‍💻 Author
-Lahari Prasanna Yarlagadda
-Yebelo Technical Assignment — 2025
